@@ -60,6 +60,93 @@ fun main() {
     
     //Faça uma apresentação de si mesmo dizendo nome, idade, país e cidade através de variáveis
     
+    //Faça uma apresentação de si mesmo dizendo nome, idade, país e cidade através de variáveis
+//
+/*
+var nome = "Eduardo"
+var idade = 19
+var pais = "Brasil"
+var cidade = "São Paulo"
     
+    println("Olá eu sou $nome , tenho $idade anos, meu país é o $pais e minha cidade é $cidade")
+
+    var num1 = 70 
+    var num2 = 13 
+    var resultado = num1 - num2
+    
+    println(resultado)
+    */
+    //Operadores Lógicos
+    // - -> subtração
+    // + -> adição
+    // * -> multiplicação
+    // / -> divisão
+    // % -> módulo
+    //println(6%2)
+    //
+    // = -> para dar valor a algo
+    //
+    //Operadores Relacionais
+    // == -> igual a algo
+    // != -> diferente a algo
+    // > -> maior que 
+    // < -> menor que
+    // >= -> maior ou igual a
+    // <= -> menor ou igual a
+    // 
+    // ++ -> adiciona 1
+    // -- -> subtrai 1
+    // 
+    /*
+    var num = 0
+    num++
+    println(num)
+    
+    
+    if e else simples
+    Estrutura:
+    
+    if(condição){
+    ações
+    }else{
+    ação
+    }
+    */ 
+    /*
+    var dia = 26
+    
+    if(dia <= 21){
+        println("Hoje tem aula")
+    }else{
+        println("Hoje não tem aula")
+    }
+    
+    // if e else composto
+    // 
+    // if(condição){
+    ações
+    }else if(condição){
+    ação
+    }else if(condição){
+    ação
+    }else{
+    ação
+    }
+    */
+    var vidas = 10
+    
+    if(vidas <= 0){
+        println("tu ta morto")
+    }else if(vidas == 1){
+        println("tu ta morrendo!!")
+    }else if(vidas == 2){
+        println("ce não ta muito bem, se cuida ae")
+    }else if(vidas == 3){
+        println("tu ta ok, só come menos miojo")
+    }else if(vidas == 4){
+        println("ce ta de boa, vai curtir")
+    }else{
+        println("Tu ta ÓTIMO!!! Parabéns!")
+    }
     
 }
