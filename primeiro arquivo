@@ -150,3 +150,78 @@ var cidade = "São Paulo"
     }
     
 }
+   // 1 - faça um programa usando duas variaveis que representem cada uma, um número.
+    //ele(programa) deve verificar qual dos dois é o maior número e imprimi-lo no console
+    //
+    /*
+    var numero1 = 10
+    var numero2 = 10 
+    
+    if(numero1 > numero2){ //verificando se o n1 é maior que o n2
+        println(numero1)
+    }else{
+        println(numero2) //verificando se o n1 não é maior que o n2
+    }
+    */
+    //faça um programa que verifique se o valor de uma variável é 
+    //maior, igual, ou menor que 0
+    /*
+    var numero = 0
+    
+    if(numero > 0){
+        println("o número é maior que zero")
+    }else if(numero < 0){
+        println("o número é menor que zero")
+    }else{
+    	println("o número é igual a zero")
+    }
+    */
+    
+    
+    //----------------------------------//
+    //Operadores Lógicos
+    // && -> e
+    // || -> ou
+    /*
+     var coracoes = 0
+    var vidas = 2
+     
+    if(coracoes <= 2 || vidas <= 3){
+        println("game over")
+    }else{
+        println("jogo vai ser reiniciado")
+    */
+    //
+    //V - verdadeiro
+    //F - falso
+    //
+    // &&
+    //VV  - Executa
+    //VF  - Não executará 
+    //FV  - não executará 
+    //FF  - não
+    //
+    // ||
+    //VV  - Executa
+    //VF  - Executa
+    //FV  - Executa
+    //FF  - não executará
+    
+    // When - quando
+    //
+    var mes = 3
+    
+    when(mes){
+        1 -> {println("Janeiro")}
+        2 -> {println("Fevereiro")}
+        3 -> {println("março")}
+        4 -> {println("abril")}
+        5 -> {println("maio")}
+        6 -> {println("junho")}
+        7 -> {println("julho")}
+        8 -> {println("agosto")}
+        9 -> {println("setembro")}
+        10 -> {println("outubro")}
+        11 -> {println("novembro")}
+        else -> {println("dezembro")}
+    }
