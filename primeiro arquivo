@@ -209,6 +209,7 @@ var cidade = "São Paulo"
     
     // When - quando
     //
+    /*
     var mes = 3
     
     when(mes){
@@ -225,3 +226,96 @@ var cidade = "São Paulo"
         11 -> {println("novembro")}
         else -> {println("dezembro")}
     }
+*/
+ // When - quando
+    /*
+    var mes = 3
+    
+    when(mes){
+        1 -> {println("Janeiro")}
+        2 -> {println("Fevereiro")}
+        3 -> {println("março")}
+        4 -> {println("abril")}
+        5 -> {println("maio")}
+        6 -> {println("junho")}
+        7 -> {println("julho")}
+        8 -> {println("agosto")}
+        9 -> {println("setembro")}
+        10 -> {println("outubro")}
+        11 -> {println("novembro")}
+        else -> {println("dezembro")} 
+}
+*/
+    //Laços de Repetição - repete uma ação quando uma determinada
+    // condição for verdadeira
+    //
+    // while -> enquanto
+    // 
+    // do.. while -> faça..enquanto
+    //  
+    // for -> para
+    //   
+    // repeat -> repita
+    // 
+    // ----------------------------------
+    //
+    //  repeat - repita
+    //  
+    //  estrutura do repeat 
+    //  
+    //  repeat(vezes q vai ser repetido){
+    //  ações
+    //  }
+    /*
+    repeat(10){
+        println("por ordem dos peaky blinders")
+    }
+    */
+    //Laço While - enquanto
+    //
+    //Estrutura while
+    //
+    //while(condição){
+    //ações
+    //}
+    /*
+    var dia = 360
+    
+    while(dia <= 365){
+        println(dia)
+        dia++
+    }
+    */
+    
+    
+    //Laço do.. while -> faça enquanto
+    //
+    //executa a ação enquanto for verdadeira
+    //
+    // estrutura do do..while
+    // 
+    //  do{
+    //  ação
+    //  }while(condição)
+    //  
+    /*
+    var dia = 360
+    
+    do{
+        println(dia)
+        dia++
+    }while(dia > 365)
+    */
+    //exercício - Faça um programa, utilizando while,
+    // que mostre no console os número de 0 a 100
+    // 
+    /*
+    var num = 0 
+    
+    while(num <= 100){
+        println(num)
+        num++
+    }
+*/
+    //Faça um programa utilizando 2 variáveis, e que mostre no console, os números de 0 até N,
+    //onde N(você decide o valor) é o valor de uma das variáveis
