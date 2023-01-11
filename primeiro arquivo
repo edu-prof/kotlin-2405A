@@ -319,3 +319,35 @@ var cidade = "São Paulo"
 */
     //Faça um programa utilizando 2 variáveis, e que mostre no console, os números de 0 até N,
     //onde N(você decide o valor) é o valor de uma das variáveis
+  
+ //Faça um programa utilizando 2 variáveis, e que mostre no console, os números de 0 até N,
+    //onde N(você decide o valor) é o valor de uma das variáveis
+/*
+    var sla = 0
+    var n = 5
+    
+    while(sla <= n){
+        println(sla)
+        sla++
+    }
+    */
+    // Laço for - para
+    // Estrutura do for
+    // 
+    // for(i in interválo/conllection)
+    // {
+    // ações
+    // }
+    
+    /*
+    for(lugar in 1..19){
+        println("feliz carnaval")
+    }
+    */
+     //Faça uma tabuada de um número(que não seja a do 1 e do 0)
+     //até o décimo multiplo usando, o laço for
+     /*
+     for(i in 1..10){
+         println(i*8)
+     }
+    */
